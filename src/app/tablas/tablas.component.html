@@ -1,0 +1,13 @@
+<table border="1">
+<tr>
+    <td>Sueldo</td>
+    <td>Notas</td>
+    <td>Cargo</td>
+</tr>
+<tr *ngFor="let dato of datos; index as i">
+    <td >{{dato.sueldos}} {{i}}</td>
+    <td >{{dato.notas}}{{i}}</td>
+    <td >{{dato.actividad}}{{i}}</td>
+</tr>
+
+</table>
